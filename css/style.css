@@ -2,6 +2,14 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 img {
 	display: block;
@@ -15,7 +23,17 @@ img {
 .list {
 	list-style: none;
 }
+
+
+
+
+
+
+
+
+
     /*АДАПТИВКА*/
+                         /*МОБИЛКА*/
 @media screen and (min-width: 480px)  and (max-width: 767px){
     .header__text {
        padding-right: 40px;
@@ -139,6 +157,7 @@ border: none;
 color: #fff;
 margin-top: 30px;
 margin-left: 160px;
+cursor: pointer;
 }
 .button-link:hover {
    background:#258db6;
@@ -214,6 +233,7 @@ margin-left: 65px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700; 
     font-size: 13px;
+    cursor: pointer;
  }
  .contacts__button:hover {
      background:#258db6;
@@ -281,10 +301,13 @@ margin-left: 65px;
     font-size: 11px;  
     text-align: center;
 }
-   /*END FOOTER*/
+    }
+/*END FOOTER*/
+/*menu*/
 
-}
+/*end menu*/
 
+                         /*ПЛАНШЕТ*/
    @media screen and (min-width: 769px)  and (max-width: 1600px){
     .story__nav {
         display: flex;
@@ -362,9 +385,6 @@ margin-left: 65px;
 
  
  /*OUR CAPABILITIES*/
- .capabilities {
-
-}
 .capabilities__text {
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 700; 
@@ -405,6 +425,7 @@ font-weight: 700;
 border: none;
 color: #fff;
 white-space: nowrap;
+cursor: pointer;
 }
 .button-link:hover {
    background:#258db6;
@@ -478,6 +499,7 @@ width: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700; 
     font-size: 13px;
+    cursor: pointer;
  }
  .contacts__button:hover {
      background:#258db6;
@@ -530,7 +552,6 @@ width: 100%;
     font-weight: 700; 
     font-size: 13px;
     margin-left: -10px;
-    
 }
 .email-input {
     width: 230px;
@@ -546,8 +567,11 @@ width: 100%;
 }
    /*END EMAIL*/
    }
+   /*menu*/
+  
+   
+ /*end menu*/
    /* END АДАПТИВКА*/
-
 
     /*HEADER*/
 .header__images {
@@ -584,5 +608,4 @@ width: 100%;
 }
  /*END HEADER*/
 
- 
  
