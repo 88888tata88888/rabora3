@@ -151,7 +151,7 @@ img {
  margin-top: 100px;
  width: 100%;
  justify-content: center;
- margin-left: 10px;
+ margin-left: 15px;
  }
  .capabilities__title-nav {
    justify-content: center;
@@ -227,7 +227,7 @@ img {
  
   /*EMAIL*/
   .email___group {
-     margin-top: 280px;
+     margin-top: 250px;
      background:#171819;
      width: 100%;
      height: 100px;
@@ -241,8 +241,7 @@ img {
      font-style: normal;
     color: #fff;
     font-weight: 700; 
-    font-size: 18px;
-    padding-right: 70px;
+    font-size: 14px;
  }
  .email__button {
      width: 150px;
@@ -273,7 +272,7 @@ img {
  
    /*FOOTER*/
    .footer {
-     margin-top: 380px; 
+     margin-top: 350px; 
      width: 100%;
      height: 60px;
      background-color: #171819;
